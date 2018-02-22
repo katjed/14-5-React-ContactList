@@ -15,5 +15,5 @@ var Contact = React.createClass({
 				React.createElement('a', {className: 'contactEmail', href: 'mailto:' + this.props.item.email}, this.props.item.email)
 			)
 	  	);
-  	},
+  	}
 });

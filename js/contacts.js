@@ -8,8 +8,6 @@ var Contacts = React.createClass({
 			return React.createElement(Contact, {item: contact, key: contact.id});
 		});
 
-		return (
-			React.createElement('ul', {className: 'contactsList'}, contacts)
-		);
+		return React.createElement('ul', {className: 'contactsList'}, contacts);
 	}
 });
